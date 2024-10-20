@@ -2,7 +2,7 @@
 
 ---
 
-# Discord Activity - Vanilla (JS)
+# Discord Activity - React (JS)
 
 Welcome to your fresh **[Robo.js](https://github.com/Wave-Play/robo)** project!
 
@@ -32,7 +32,7 @@ _Ready to embark on this adventure?_
 Create a project with this template, replacing `<project-name>` with your desired name:
 
 ```bash
-npx create-robo <project-name> --template discord-activities/vanilla-js
+npx create-robo <project-name> --template discord-activities/react-js
 ```
 
 Then navigate into your project directory:
@@ -105,7 +105,7 @@ This Robo boasts an intuitive plugin system that grants new capabilities instant
 npx robo add @robojs/ai
 ```
 
-> Swap out [`@robojs/ai`](https://robojs.dev/plugins/ai) with your chosen plugin's package name
+> Swap out [`@robojs/ai`](https://github.com/Wave-Play/robo.js/tree/main/packages/plugin-ai) with your chosen plugin's package name
 
 With that, your Robo automatically equips itself with all the features the plugin offers. Want to revert? Simply use [`robo remove`](https://docs.roboplay.dev/docs/advanced/command-line#plugins) to uninstall any plugin.
 
